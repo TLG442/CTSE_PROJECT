@@ -73,6 +73,6 @@ app.get("/rest/getAllUsers", (req, res) => {
     res.send(userData)
    });
 
-app.listen(PORT, () => {
-  console.log("Server runningggggggggggggg");
-}); //sadasdaassadasasdaasdsdadedasdasd
+   app.listen(PORT, '0.0.0.0', () => {
+    console.log("Server runningggggggggggggg");
+  });
