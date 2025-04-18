@@ -26,7 +26,7 @@ jobs:
         with:
           args: >
             -Dsonar.organization=tlg442
-            -Dsonar.projectKey=CTSE_PROJECT
+            -Dsonar.projectKey=TLG442_CTSE_PROJECT
             -Dsonar.host.url=https://sonarcloud.io
 
       - name: Configure AWS credentials
